@@ -13,13 +13,11 @@
     <list default="true" id="d6689392-a1a5-4343-9241-4c5e31e77aad" name="Default Changelist" comment="Jacoco config added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/ConditionerAdvancer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/Conditioner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/ConditionerAdvancerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/ConditionerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/netology/ConditionerAdvancer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/Conditioner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/Conditioner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/ConditionerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/ConditionerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/netology/Conditioner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/netology/Conditioner.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ru.netology.ConditionerAdvancerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-ru.netology.ConditionerAdvancerTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/ru.netology.ConditionerAdvancerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/ru.netology.ConditionerAdvancerTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/netology/ConditionerAdvancerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/netology/ConditionerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ru/netology/ConditionerTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +60,7 @@
       <command value="mvn clean verify" />
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ConditionerTest.shouldDecreaseMinCurrentTemperature">
     <configuration name="ConditionerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ConditionSmartHouse" />
       <extension name="coverage">
@@ -78,9 +76,77 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ConditionerTest.shouldDecreaseCurrentTemperature" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ConditionSmartHouse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.ConditionerTest" />
+      <option name="METHOD_NAME" value="shouldDecreaseCurrentTemperature" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConditionerTest.shouldDecreaseMinCurrentTemperature" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ConditionSmartHouse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.ConditionerTest" />
+      <option name="METHOD_NAME" value="shouldDecreaseMinCurrentTemperature" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConditionerTest.shouldIncreaseCurrentMaxTemperature" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ConditionSmartHouse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.ConditionerTest" />
+      <option name="METHOD_NAME" value="shouldIncreaseCurrentMaxTemperature" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConditionerTest.shouldIncreaseCurrentTemperature" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ConditionSmartHouse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.ConditionerTest" />
+      <option name="METHOD_NAME" value="shouldIncreaseCurrentTemperature" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ConditionerTest.shouldDecreaseMinCurrentTemperature" />
+        <item itemvalue="JUnit.ConditionerTest.shouldIncreaseCurrentMaxTemperature" />
         <item itemvalue="JUnit.ConditionerTest" />
+        <item itemvalue="JUnit.ConditionerTest.shouldDecreaseCurrentTemperature" />
+        <item itemvalue="JUnit.ConditionerTest.shouldIncreaseCurrentTemperature" />
       </list>
     </recent_temporary>
   </component>
@@ -171,6 +237,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
@@ -185,29 +252,33 @@
     <option name="LAST_COMMIT_MESSAGE" value="Jacoco config added" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1286" height="176" key="GridCell.Tab.0.bottom" timestamp="1593807343986">
+    <state x="474" y="47" key="#com.intellij.ide.util.MemberChooser" timestamp="1593810960357">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1286" height="176" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1593807343986" />
-    <state width="1286" height="176" key="GridCell.Tab.0.center" timestamp="1593807343985">
+    <state x="474" y="47" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1593810960357" />
+    <state width="1286" height="176" key="GridCell.Tab.0.bottom" timestamp="1593812387347">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1286" height="176" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1593807343985" />
-    <state width="1286" height="176" key="GridCell.Tab.0.left" timestamp="1593807343985">
+    <state width="1286" height="176" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1593812387347" />
+    <state width="1286" height="176" key="GridCell.Tab.0.center" timestamp="1593812387346">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1286" height="176" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1593807343985" />
-    <state width="1286" height="176" key="GridCell.Tab.0.right" timestamp="1593807343986">
+    <state width="1286" height="176" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1593812387346" />
+    <state width="1286" height="176" key="GridCell.Tab.0.left" timestamp="1593812387345">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1286" height="176" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1593807343986" />
+    <state width="1286" height="176" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1593812387345" />
+    <state width="1286" height="176" key="GridCell.Tab.0.right" timestamp="1593812387346">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1286" height="176" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1593812387346" />
     <state x="452" y="77" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1593805238402">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="452" y="77" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.768@0.0.1366.768" timestamp="1593805238402" />
-    <state x="337" y="164" width="672" height="677" key="run.anything.popup" timestamp="1593807210812">
+    <state x="337" y="164" width="672" height="677" key="run.anything.popup" timestamp="1593812386987">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="337" y="164" width="672" height="677" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1593807210812" />
+    <state x="337" y="164" width="672" height="677" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1593812386987" />
   </component>
 </project>
