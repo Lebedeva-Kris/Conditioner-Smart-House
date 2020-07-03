@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d6689392-a1a5-4343-9241-4c5e31e77aad" name="Default Changelist" comment="Surefire plugin added">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1eBoFkHcdMPXhsf10FQtmWsP2pe" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn test" />
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d6689392-a1a5-4343-9241-4c5e31e77aad" name="Default Changelist" comment="" />
+      <created>1593804245791</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593804245791</updated>
+    </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1593804278566</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593804278566</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Dependencies added">
+      <created>1593804398531</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1593804398531</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Surefire plugin added">
+      <created>1593804536347</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1593804536347</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="Dependencies added" />
+    <MESSAGE value="Surefire plugin added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Surefire plugin added" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1286" height="176" key="GridCell.Tab.0.bottom" timestamp="1593804572190">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1286" height="176" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1593804572190" />
+    <state width="1286" height="176" key="GridCell.Tab.0.center" timestamp="1593804572189">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1286" height="176" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1593804572189" />
+    <state width="1286" height="176" key="GridCell.Tab.0.left" timestamp="1593804572189">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1286" height="176" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1593804572189" />
+    <state width="1286" height="176" key="GridCell.Tab.0.right" timestamp="1593804572189">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1286" height="176" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1593804572189" />
+    <state x="337" y="164" width="672" height="677" key="run.anything.popup" timestamp="1593804546629">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="337" y="164" width="672" height="677" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1593804546629" />
+  </component>
+</project>
