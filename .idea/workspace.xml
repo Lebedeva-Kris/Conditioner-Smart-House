@@ -15,8 +15,16 @@
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/Conditioner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/Conditioner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/ConditionerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/ConditionerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/ConditionSmartHouse.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ru/netology/Conditioner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/netology/Conditioner.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ru.netology.ConditionerAdvancerTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/ru.netology.ConditionerAdvancerTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/ConditionSmartHouse.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/ru/netology/ConditionerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ru/netology/ConditionerTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -256,29 +264,29 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="474" y="47" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1593810960357" />
-    <state width="1286" height="176" key="GridCell.Tab.0.bottom" timestamp="1593812387347">
+    <state width="1286" height="176" key="GridCell.Tab.0.bottom" timestamp="1593812770715">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1286" height="176" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1593812387347" />
-    <state width="1286" height="176" key="GridCell.Tab.0.center" timestamp="1593812387346">
+    <state width="1286" height="176" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1593812770715" />
+    <state width="1286" height="176" key="GridCell.Tab.0.center" timestamp="1593812770715">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1286" height="176" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1593812387346" />
-    <state width="1286" height="176" key="GridCell.Tab.0.left" timestamp="1593812387345">
+    <state width="1286" height="176" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1593812770715" />
+    <state width="1286" height="176" key="GridCell.Tab.0.left" timestamp="1593812770714">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1286" height="176" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1593812387345" />
-    <state width="1286" height="176" key="GridCell.Tab.0.right" timestamp="1593812387346">
+    <state width="1286" height="176" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1593812770714" />
+    <state width="1286" height="176" key="GridCell.Tab.0.right" timestamp="1593812770715">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1286" height="176" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1593812387346" />
+    <state width="1286" height="176" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1593812770715" />
     <state x="452" y="77" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1593805238402">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="452" y="77" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.768@0.0.1366.768" timestamp="1593805238402" />
-    <state x="337" y="164" width="672" height="677" key="run.anything.popup" timestamp="1593812386987">
+    <state x="337" y="164" width="672" height="677" key="run.anything.popup" timestamp="1593812733546">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="337" y="164" width="672" height="677" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1593812386987" />
+    <state x="337" y="164" width="672" height="677" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1593812733546" />
   </component>
 </project>
