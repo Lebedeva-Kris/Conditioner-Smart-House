@@ -10,7 +10,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6689392-a1a5-4343-9241-4c5e31e77aad" name="Default Changelist" comment="Jacoco config added" />
+    <list default="true" id="d6689392-a1a5-4343-9241-4c5e31e77aad" name="Default Changelist" comment="Jacoco config added">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/ConditionerAdvancer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/Conditioner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/ConditionerAdvancerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/ConditionerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/netology/ConditionerAdvancer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ru.netology.ConditionerAdvancerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-ru.netology.ConditionerAdvancerTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/ru.netology.ConditionerAdvancerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/ru.netology.ConditionerAdvancerTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/netology/ConditionerAdvancerTest.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,6 +61,28 @@
       <command value="mvn test" />
       <command value="mvn clean verify" />
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="ConditionerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ConditionSmartHouse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.ConditionerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ConditionerTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -153,29 +185,29 @@
     <option name="LAST_COMMIT_MESSAGE" value="Jacoco config added" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1286" height="176" key="GridCell.Tab.0.bottom" timestamp="1593806278253">
+    <state width="1286" height="176" key="GridCell.Tab.0.bottom" timestamp="1593807343986">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1286" height="176" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1593806278253" />
-    <state width="1286" height="176" key="GridCell.Tab.0.center" timestamp="1593806278251">
+    <state width="1286" height="176" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1593807343986" />
+    <state width="1286" height="176" key="GridCell.Tab.0.center" timestamp="1593807343985">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1286" height="176" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1593806278251" />
-    <state width="1286" height="176" key="GridCell.Tab.0.left" timestamp="1593806278250">
+    <state width="1286" height="176" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1593807343985" />
+    <state width="1286" height="176" key="GridCell.Tab.0.left" timestamp="1593807343985">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1286" height="176" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1593806278250" />
-    <state width="1286" height="176" key="GridCell.Tab.0.right" timestamp="1593806278252">
+    <state width="1286" height="176" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1593807343985" />
+    <state width="1286" height="176" key="GridCell.Tab.0.right" timestamp="1593807343986">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1286" height="176" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1593806278252" />
+    <state width="1286" height="176" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1593807343986" />
     <state x="452" y="77" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1593805238402">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="452" y="77" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.768@0.0.1366.768" timestamp="1593805238402" />
-    <state x="337" y="164" width="672" height="677" key="run.anything.popup" timestamp="1593806278044">
+    <state x="337" y="164" width="672" height="677" key="run.anything.popup" timestamp="1593807210812">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="337" y="164" width="672" height="677" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1593806278044" />
+    <state x="337" y="164" width="672" height="677" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1593807210812" />
   </component>
 </project>

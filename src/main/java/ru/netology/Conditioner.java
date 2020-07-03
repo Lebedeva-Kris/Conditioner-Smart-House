@@ -1,10 +1,10 @@
 package ru.netology;
 
-public class ConditionerAdvancer {
+public class Conditioner {
     private String name;
-    private int maxTemperature;
-    private int minTemperature;
-    private int currentTemperature;
+    private int maxTemperature = 30;
+    private int minTemperature = -15;
+    private int currentTemperature = 17;
     private boolean on;
 
     public int getMaxTemperature() {
