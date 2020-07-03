@@ -10,14 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6689392-a1a5-4343-9241-4c5e31e77aad" name="Default Changelist" comment="Change mvn run command to verify">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/ConditionerAdvancer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/netology/ConditionerAdvancerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ConditionSmartHouse-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ConditionSmartHouse-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+    <list default="true" id="d6689392-a1a5-4343-9241-4c5e31e77aad" name="Default Changelist" comment="Tests added">
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/ConditionerAdvancerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/ConditionerAdvancerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +107,21 @@
       <option name="project" value="LOCAL" />
       <updated>1593805037581</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Java code added">
+      <created>1593805721133</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1593805721133</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Tests added">
+      <created>1593805739759</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1593805739759</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -134,25 +142,27 @@
     <MESSAGE value=".gitignore added" />
     <MESSAGE value="Change mvn run command" />
     <MESSAGE value="Change mvn run command to verify" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change mvn run command to verify" />
+    <MESSAGE value="Java code added" />
+    <MESSAGE value="Tests added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tests added" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1286" height="176" key="GridCell.Tab.0.bottom" timestamp="1593805466433">
+    <state width="1286" height="176" key="GridCell.Tab.0.bottom" timestamp="1593805752546">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1286" height="176" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1593805466433" />
-    <state width="1286" height="176" key="GridCell.Tab.0.center" timestamp="1593805466432">
+    <state width="1286" height="176" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1593805752546" />
+    <state width="1286" height="176" key="GridCell.Tab.0.center" timestamp="1593805752545">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1286" height="176" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1593805466432" />
-    <state width="1286" height="176" key="GridCell.Tab.0.left" timestamp="1593805466432">
+    <state width="1286" height="176" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1593805752545" />
+    <state width="1286" height="176" key="GridCell.Tab.0.left" timestamp="1593805752545">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1286" height="176" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1593805466432" />
-    <state width="1286" height="176" key="GridCell.Tab.0.right" timestamp="1593805466433">
+    <state width="1286" height="176" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1593805752545" />
+    <state width="1286" height="176" key="GridCell.Tab.0.right" timestamp="1593805752546">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1286" height="176" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1593805466433" />
+    <state width="1286" height="176" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1593805752546" />
     <state x="452" y="77" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1593805238402">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
