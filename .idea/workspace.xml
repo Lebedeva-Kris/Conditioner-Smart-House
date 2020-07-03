@@ -10,8 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6689392-a1a5-4343-9241-4c5e31e77aad" name="Default Changelist" comment="Surefire plugin added">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+    <list default="true" id="d6689392-a1a5-4343-9241-4c5e31e77aad" name="Default Changelist" comment=".gitignore added">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +33,7 @@
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn test" />
+      <command value="mvn clean verify" />
     </option>
   </component>
   <component name="SvnConfiguration">
@@ -67,7 +68,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593804536347</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary=".gitignore added">
+      <created>1593804695252</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1593804695252</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -85,28 +93,29 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="Dependencies added" />
     <MESSAGE value="Surefire plugin added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Surefire plugin added" />
+    <MESSAGE value=".gitignore added" />
+    <option name="LAST_COMMIT_MESSAGE" value=".gitignore added" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1286" height="176" key="GridCell.Tab.0.bottom" timestamp="1593804572190">
+    <state width="1286" height="176" key="GridCell.Tab.0.bottom" timestamp="1593804943477">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1286" height="176" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1593804572190" />
-    <state width="1286" height="176" key="GridCell.Tab.0.center" timestamp="1593804572189">
+    <state width="1286" height="176" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1593804943477" />
+    <state width="1286" height="176" key="GridCell.Tab.0.center" timestamp="1593804943477">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1286" height="176" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1593804572189" />
-    <state width="1286" height="176" key="GridCell.Tab.0.left" timestamp="1593804572189">
+    <state width="1286" height="176" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1593804943477" />
+    <state width="1286" height="176" key="GridCell.Tab.0.left" timestamp="1593804943476">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1286" height="176" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1593804572189" />
-    <state width="1286" height="176" key="GridCell.Tab.0.right" timestamp="1593804572189">
+    <state width="1286" height="176" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1593804943476" />
+    <state width="1286" height="176" key="GridCell.Tab.0.right" timestamp="1593804943477">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1286" height="176" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1593804572189" />
-    <state x="337" y="164" width="672" height="677" key="run.anything.popup" timestamp="1593804546629">
+    <state width="1286" height="176" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1593804943477" />
+    <state x="337" y="164" width="672" height="677" key="run.anything.popup" timestamp="1593804943300">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="337" y="164" width="672" height="677" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1593804546629" />
+    <state x="337" y="164" width="672" height="677" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1593804943300" />
   </component>
 </project>
