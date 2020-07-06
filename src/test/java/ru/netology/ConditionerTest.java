@@ -24,7 +24,6 @@ public class ConditionerTest {
     @Test
     void increaseCurrentMaxTemperature() {
         Conditioner conditioner = new Conditioner();
-        int maxTemperatureBeforeIncrease = conditioner.getCurrentTemperature();
         conditioner.setCurrentTemperature(conditioner.getMaxTemperature());
         conditioner.increaseCurrentTemperature();
         assertEquals(conditioner.getMaxTemperature(), conditioner.getCurrentTemperature());
@@ -33,7 +32,6 @@ public class ConditionerTest {
     @Test
     void decreaseCurrentMinTemperature() {
         Conditioner conditioner = new Conditioner();
-        int minTemperatureBeforeDecrease = conditioner.getCurrentTemperature();
         conditioner.setCurrentTemperature(conditioner.getMinTemperature());
         conditioner.decreaseCurrentTemperature();
         assertEquals(conditioner.getMinTemperature(), conditioner.getCurrentTemperature());
