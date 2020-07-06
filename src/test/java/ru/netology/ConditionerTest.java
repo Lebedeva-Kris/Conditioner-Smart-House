@@ -6,36 +6,36 @@ import static org.junit.jupiter.api.Assertions.*;
 public class ConditionerTest {
 
     @Test
-    void shouldIncreaseCurrentTemperature() {
+    void increaseCurrentTemperature() {
         Conditioner conditioner = new Conditioner();
-        assertEquals(0, conditioner.getIncreaseCurrentTemperature());
-        conditioner.setIncreaseCurrentTemperature(18);
-        assertEquals(19, conditioner.getIncreaseCurrentTemperature());
+        int temperatureBeforeIncrease = conditioner.getCurrentTemperature();
+        conditioner.increaseCurrentTemperature();
+        assertEquals(temperatureBeforeIncrease+1, conditioner.getCurrentTemperature());
     }
 
     @Test
-    void shouldIncreaseCurrentMaxTemperature() {
+    void decreaseCurrentTemperature() {
         Conditioner conditioner = new Conditioner();
-        assertEquals(0, conditioner.getIncreaseCurrentTemperature());
-        conditioner.setIncreaseCurrentTemperature(30);
-        assertEquals(0, conditioner.getIncreaseCurrentTemperature());
+        int temperatureBeforeDecrease = conditioner.getCurrentTemperature();
+        conditioner.decreaseCurrentTemperature();
+        assertEquals(temperatureBeforeDecrease-1, conditioner.getCurrentTemperature());
     }
 
     @Test
-    void shouldDecreaseCurrentTemperature() {
+    void increaseCurrentMaxTemperature() {
         Conditioner conditioner = new Conditioner();
-        assertEquals(0, conditioner.getDecreaseCurrentTemperature());
-        conditioner.setDecreaseCurrentTemperature(18);
-        assertEquals(17, conditioner.getDecreaseCurrentTemperature());
+        int maxTemperatureBeforeIncrease = conditioner.getCurrentTemperature();
+        conditioner.setCurrentTemperature(conditioner.getMaxTemperature());
+        conditioner.increaseCurrentTemperature();
+        assertEquals(conditioner.getMaxTemperature(), conditioner.getCurrentTemperature());
     }
 
     @Test
-    void shouldDecreaseMinCurrentTemperature() {
+    void decreaseCurrentMinTemperature() {
         Conditioner conditioner = new Conditioner();
-        assertEquals(0, conditioner.getDecreaseCurrentTemperature());
-        conditioner.setDecreaseCurrentTemperature(-15);
-        assertEquals(0, conditioner.getDecreaseCurrentTemperature());
+        int minTemperatureBeforeDecrease = conditioner.getCurrentTemperature();
+        conditioner.setCurrentTemperature(conditioner.getMinTemperature());
+        conditioner.decreaseCurrentTemperature();
+        assertEquals(conditioner.getMinTemperature(), conditioner.getCurrentTemperature());
     }
-
 }
-

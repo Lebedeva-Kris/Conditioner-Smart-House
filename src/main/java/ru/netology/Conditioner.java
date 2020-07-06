@@ -2,38 +2,10 @@ package ru.netology;
 
 public class Conditioner {
     private String name;
-    private int maxTemperature = 30;
-    private int minTemperature = -15;
-    private int currentTemperature;
+    private int maxTemperature = 15;
+    private int minTemperature = 0;
+    private int currentTemperature = 10;
     private boolean on;
-    private int increaseCurrentTemperature;
-    private int decreaseCurrentTemperature;
-
-
-    public int getDecreaseCurrentTemperature() {
-        return decreaseCurrentTemperature;
-    }
-    public void setDecreaseCurrentTemperature(int decreaseCurrentTemperature) {
-        if (decreaseCurrentTemperature > minTemperature) {
-            decreaseCurrentTemperature--;
-        } else {
-            return;
-        }
-        this.decreaseCurrentTemperature = decreaseCurrentTemperature;
-    }
-
-
-    public int getIncreaseCurrentTemperature() {
-        return increaseCurrentTemperature;
-    }
-    public void setIncreaseCurrentTemperature(int increaseCurrentTemperature) {
-        if (increaseCurrentTemperature < maxTemperature) {
-            increaseCurrentTemperature++;
-        } else {
-            return;
-        }
-        this.increaseCurrentTemperature = increaseCurrentTemperature;
-    }
 
 
     public int getMaxTemperature() {
@@ -65,6 +37,23 @@ public class Conditioner {
     }
     public void setCurrentTemperature(int currentTemperature) {
         this.currentTemperature = currentTemperature;
+    }
+
+
+    public void increaseCurrentTemperature() {
+        if (currentTemperature < maxTemperature) {
+            currentTemperature++;
+        } else {
+            return;
+        }
+    }
+
+    public void decreaseCurrentTemperature() {
+        if (currentTemperature > minTemperature) {
+            currentTemperature--;
+        } else {
+            return;
+        }
     }
 
 
